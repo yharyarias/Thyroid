@@ -11,13 +11,15 @@ class CallToAction extends StatelessWidget {
       child: Text(
         title,
         style: TextStyle(
-          fontSize: 18, 
+          fontSize: 18,
           fontWeight: FontWeight.w800,
           color: Colors.white,
         ),
       ),
-      decoration: BoxDecoration(color: Color.fromARGB(255, 31, 229, 146),
-      borderRadius: BorderRadius.circular(5),),
+      decoration: BoxDecoration(
+        color: Color.fromARGB(255, 31, 229, 146),
+        borderRadius: BorderRadius.circular(5),
+      ),
     );
   }
 }
